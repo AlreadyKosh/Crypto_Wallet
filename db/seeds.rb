@@ -1,0 +1,1 @@
+#USE O RAILS dev:setup  (lib/tasks/dev.rake)
