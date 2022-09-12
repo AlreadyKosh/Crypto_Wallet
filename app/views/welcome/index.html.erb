@@ -1,9 +1,9 @@
 <div class="p-5 mb-4 bg-light rounded-3">
     <div class="container-fluid py-5">
-        <h1 class="display-4 fw-bold">Seja Bem Vindo!!</h1>
-        <p class="col-md-8 fs-4">Este é o Crypto Wallet, um app para cadastrar e acompanhar suas criptomoedas</p>
+        <h1 class="display-4 fw-bold"><%= t('welcome') %></h1>
+        <p class="col-md-8 fs-4"><%= t('messages.welcome') %></p>
         <hr class="my-4">
-        <p>Para começar selecione uma das opções abaixo:</p>
+        <p><%= t('messages.menu')%></p>
         <%= render "menu" %>
     </div>
 </div>
