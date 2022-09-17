@@ -41,6 +41,7 @@ gem 'tty-spinner'
 
 gem 'rails-i18n', '~> 5.1'
 
+gem 'webpacker'
 
 
 group :development, :test do
